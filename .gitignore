@@ -14,13 +14,15 @@ venv/
 env/
 .venv/
 
-# Variables de entorno (¡NUNCA subir!)
+# Variables de entorno (¡NUNCA subir al repositorio!)
 .env
+.env.local
+.env.*.local
 
 # Node.js
 node_modules/
 
-# Vite build output (Railway lo genera en el build)
+# Vite build output (Railway lo regenera durante el build)
 static/js/dist/
 
 # IDE
